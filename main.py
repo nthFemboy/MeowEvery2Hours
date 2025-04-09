@@ -58,7 +58,7 @@ try:
     ))
     tweet_button.click()
 
-    sleep(3000)  # Wait for the tweet to be posted
+    sleep(4)  # Wait for the tweet to be posted
 
 finally:
     driver.quit()
