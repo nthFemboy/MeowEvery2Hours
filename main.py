@@ -26,10 +26,6 @@ try:
     sleep(2)
     wait.until(EC.presence_of_element_located((By.NAME, "password"))).send_keys(PASSWORD + Keys.ENTER)
 
-    # Wait for home to load and take a screenshot
-    sleep(5)
-    driver.save_screenshot("debug.png")
-
     # Wait for tweet box to load
     tweet_box = wait.until(EC.presence_of_element_located(
         (By.CSS_SELECTOR, "div[role='textbox'][data-testid='tweetTextarea_0']"))
