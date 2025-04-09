@@ -21,5 +21,5 @@ This Python script automates logging into Twitter (X), generating a random numbe
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/twitter-meow-bot.git
-   cd twitter-meow-bot
+   git clone https://github.com/nthFemboy/MeowEvery2Hours.git
+   cd MeowEvery2Hours
